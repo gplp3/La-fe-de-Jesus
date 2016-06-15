@@ -9,7 +9,7 @@ public class DBConn extends SQLiteAssetHelper {
 	Context contexx;
 	SQLiteDatabase db;
 	
-	private static final String DATA_BASENAME="poemario";
+	private static final String DATA_BASENAME="lafe.db";
 	private static final int DATABASE_VERSION=3;
 
 	public DBConn(Context contex) {

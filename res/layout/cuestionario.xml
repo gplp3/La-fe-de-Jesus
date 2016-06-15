@@ -1,0 +1,147 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+   		android:layout_width="fill_parent"
+    	android:layout_height="fill_parent">
+   
+    <ScrollView 
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:fillViewport="true"
+    	android:padding="10dp"
+    	android:layout_above="@+id/layout_btnSave" >
+    	          
+		<RelativeLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:orientation="vertical" >
+	
+	        <TableLayout
+	            android:id="@+id/tablaCuestionario"
+	            android:layout_width="fill_parent"
+	            android:layout_height="match_parent"
+	            android:layout_centerVertical="true">
+	            
+	        </TableLayout>
+	        
+	    </RelativeLayout>
+<!-- 		<LinearLayout  -->
+<!-- 		    android:layout_width="fill_parent" -->
+<!-- 		    android:layout_height="wrap_content" -->
+<!-- 		    tools:context=".Cuestionario"  -->
+<!-- 		    android:orientation="vertical" -->
+<!-- 		    android:focusable="true" android:focusableInTouchMode="true"> -->
+	    
+	
+<!-- 	        <TextView -->
+<!-- 	     		android:id="@+id/c_title" -->
+<!-- 	     		android:layout_width="wrap_content" -->
+<!-- 		        android:layout_height="wrap_content" -->
+<!-- 		        android:layout_gravity="center_horizontal" -->
+<!-- 		        android:padding="10sp" -->
+<!-- 		        android:textAppearance="?android:attr/textAppearanceLarge" /> -->
+	          
+<!-- 		    <TextView -->
+<!-- 		        android:id="@+id/pregunta1" -->
+<!-- 		        android:layout_width="wrap_content" -->
+<!-- 		        android:layout_height="wrap_content" -->
+<!-- 		        android:layout_margin="10sp" /> -->
+		
+<!-- 		    <EditText -->
+<!-- 		        android:id="@+id/respuesta1" -->
+<!-- 		        android:layout_width="match_parent" -->
+<!-- 		        android:layout_height="wrap_content" -->
+<!-- 		        android:layout_margin="10sp" -->
+<!-- 		        android:inputType="text" -->
+<!-- 		        android:ems="10" /> -->
+		
+<!-- 		    <TextView -->
+<!-- 		        android:id="@+id/pregunta2" -->
+<!-- 		        android:layout_width="wrap_content" -->
+<!-- 		        android:layout_height="wrap_content" -->
+<!-- 		        android:layout_margin="10sp" /> -->
+		
+<!-- 		    <EditText -->
+<!-- 		        android:id="@+id/respuesta2" -->
+<!-- 		        android:layout_width="match_parent" -->
+<!-- 		        android:layout_height="wrap_content" -->
+<!-- 		        android:layout_margin="10sp" -->
+<!-- 		        android:inputType="text" -->
+<!-- 		        android:ems="10" /> -->
+		
+<!-- 		    <TextView -->
+<!-- 		        android:id="@+id/pregunta3" -->
+<!-- 		        android:layout_width="wrap_content" -->
+<!-- 		        android:layout_height="wrap_content" -->
+<!-- 		        android:layout_margin="10sp" /> -->
+		
+<!-- 		    <EditText -->
+<!-- 		        android:id="@+id/respuesta3" -->
+<!-- 		        android:layout_width="match_parent" -->
+<!-- 		        android:layout_height="wrap_content" -->
+<!-- 		        android:inputType="text" -->
+<!-- 		        android:layout_margin="10sp" -->
+<!-- 		        android:ems="10" /> -->
+				    
+<!-- 		    <TextView -->
+<!-- 		        android:id="@+id/pregunta4" -->
+<!-- 		        android:layout_width="wrap_content" -->
+<!-- 		        android:layout_height="wrap_content" -->
+<!-- 		        android:layout_margin="10sp" /> -->
+		
+<!-- 		    <EditText -->
+<!-- 		        android:id="@+id/respuesta4" -->
+<!-- 		        android:layout_width="match_parent" -->
+<!-- 		        android:layout_height="wrap_content" -->
+<!-- 		        android:inputType="text" -->
+<!-- 		        android:layout_margin="10sp" -->
+<!-- 		        android:ems="10" /> -->
+		    
+<!-- 		    <TextView -->
+<!-- 		        android:id="@+id/pregunta5" -->
+<!-- 		        android:layout_width="wrap_content" -->
+<!-- 		        android:layout_height="wrap_content" -->
+<!-- 		        android:layout_margin="10sp" /> -->
+		
+<!-- 		    <EditText -->
+<!-- 		        android:id="@+id/respuesta5" -->
+<!-- 		        android:layout_width="match_parent" -->
+<!-- 		        android:layout_height="wrap_content" -->
+<!-- 		        android:inputType="text" -->
+<!-- 		        android:layout_margin="10sp" -->
+<!-- 		        android:ems="10" /> -->
+		
+<!-- 		    <TextView -->
+<!-- 		        android:id="@+id/pregunta6" -->
+<!-- 		        android:layout_width="wrap_content" -->
+<!-- 		        android:layout_height="wrap_content" -->
+<!-- 		        android:layout_margin="10sp" /> -->
+		
+<!-- 		    <EditText -->
+<!-- 		        android:id="@+id/respuesta6" -->
+<!-- 		        android:layout_width="match_parent" -->
+<!-- 		        android:layout_height="wrap_content" -->
+<!-- 		        android:inputType="text" -->
+<!-- 		        android:layout_margin="10sp" -->
+<!-- 		        android:ems="10" /> -->
+		    
+<!-- 		</LinearLayout>         -->
+	</ScrollView>
+
+    <LinearLayout 
+        android:id="@+id/layout_btnSave"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_margin="10sp" 
+        android:gravity="center_horizontal" >
+			
+		<Button 
+		    android:id="@+id/update_btnSave" 
+		    android:layout_width="match_parent" 
+		    android:layout_height="wrap_content" 
+		    android:drawableLeft="@android:drawable/btn_star_big_off"
+		    android:text="Save" 
+		    android:textSize="12sp" />
+	</LinearLayout>
+</RelativeLayout>
